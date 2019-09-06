@@ -28,6 +28,22 @@ a {
     padding: 0 40px;
 }
 
+.heading {
+    margin-bottom: 35px;
+    font-family: 'OpenSans-Bold';
+    font-size: 30px;
+}
+
+.desc {
+    max-width: 620px;
+    margin: auto;
+}
+
+.subtitle {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 20px;
+}
+
 /* ----- common styles ----- */
 
 
@@ -109,3 +125,31 @@ a {
 }
 
 /* ----- title styles ----- */
+
+
+/* ----- about us styles ----- */
+
+.about-us {
+    padding: 125px 0;
+}
+
+.about-us__cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 120px;
+}
+
+.about-us__card {    
+    width: 23%
+}
+
+.about-us__icon {
+    max-height: 60px;
+}
+
+.about-us__subtitle {
+    margin: 40px 0 25px 0;
+}
+
+/* ----- about us styles ----- */
