@@ -45,6 +45,19 @@ a {
     font-size: 20px;
 }
 
+.btn {
+    margin: 10px;
+    padding: 15px 0;
+    min-width: 220px;
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
 /* ----- common styles ----- */
 
 
@@ -88,16 +101,16 @@ a {
     color: #ffffff;
 }
 
-.title-content {
+.c-title {
     padding: 180px 0 70px 0;
 }
 
-.title-content__title {
+.c-title__title {
     font-family: 'OpenSans-SemiBold';
     font-size: 60px;
 }
 
-.title-content__slogan {
+.c-title__slogan {
     margin: 25px 0 100px 0;
     font-size: 22px;
 }
@@ -105,18 +118,6 @@ a {
 .buttons {
     display: flex;
     justify-content: center;
-}
-
-.btn {
-    margin: 10px;
-    padding: 15px 0;
-    min-width: 220px;
-    font-family: 'Roboto-Bold';
-    font-size: 20px;
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    cursor: pointer;
 }
 
 .fa-angle-down {
@@ -130,26 +131,26 @@ a {
 
 /* ----- about us styles ----- */
 
-.about-us {
+.c-about {
     padding: 125px 0;
 }
 
-.about-us__cards {
+.c-about__cards {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
     margin-top: 120px;
 }
 
-.about-us__card {    
+.c-about__card {    
     width: 23%
 }
 
-.about-us__icon {
+.c-about__icon {
     max-height: 60px;
 }
 
-.about-us__subtitle {
+.c-about__subtitle {
     margin: 40px 0 25px 0;
 }
 
@@ -162,11 +163,11 @@ a {
     background-color: #e4fdf9;
 }
 
-.services-content {
+.c-services {
     padding: 170px 0 120px 0;
 }
 
-.services-content__cards {
+.c-services__cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -174,7 +175,7 @@ a {
     margin-top: 80px;
 }
 
-.services-content__card {
+.c-services__card {
     width: 31.5%;
     margin-top: 30px;
     background-color: #ffffff;
@@ -185,15 +186,15 @@ a {
     font-size: 50px;
 }
 
-.services-content__subtitle {
+.c-services__subtitle {
     margin: 0 0 25px 0;
 }
 
-.services-content__desc {
+.c-services__desc {
     margin: 0 50px;
 }
 
-.services-content__btn {
+.c-services__btn {
     min-width: 0px;
     margin: 40px 0 50px 0;
     padding: 15px 20px;
@@ -203,3 +204,83 @@ a {
 }
 
 /* ----- services styles ----- */
+
+
+/* ----- works styles ----- */
+
+.c-works {
+    padding: 120px 0 110px 0;
+}
+
+.c-works__buttons {
+    margin: 110px 0;
+}
+
+.c-works__btn {
+    min-width: 179px;
+    font-family: 'OpenSans-SemiBold';
+    color: #212121;
+    border-color: #00897b;
+}
+
+.c-works__btn_short {
+    min-width: 0;
+    padding: 15px 30px;
+}
+
+.c-works__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* --- cards animation --- */
+
+.c-works__img-wrap {
+    position: relative;
+    max-height: 373px;
+    margin-bottom: 25px;
+}
+
+.c-works__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.c-works__desc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(21, 21, 21, 0.7);
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.c-works__img-wrap:hover .c-works__desc {
+    visibility: visible;
+    opacity: 1;
+}
+
+.c-works__subtitle {
+    margin: 0 0 10px 0;
+}
+
+
+/* --- cards animation --- */
+
+.c-works__btn_big {
+    margin-top: 100px;
+    min-width: 0;
+    padding: 20px 60px;
+    font-family: 'Roboto-Bold';
+}
+
+/* ----- works styles ----- */
