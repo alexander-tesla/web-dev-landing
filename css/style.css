@@ -29,6 +29,7 @@ a {
 }
 
 .heading {
+    margin-top: 0;
     margin-bottom: 35px;
     font-family: 'OpenSans-Bold';
     font-size: 30px;
@@ -36,7 +37,7 @@ a {
 
 .desc {
     max-width: 620px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .subtitle {
@@ -153,3 +154,52 @@ a {
 }
 
 /* ----- about us styles ----- */
+
+
+/* ----- services styles ----- */
+
+.services {
+    background-color: #e4fdf9;
+}
+
+.services-content {
+    padding: 170px 0 120px 0;
+}
+
+.services-content__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.services-content__card {
+    width: 31.5%;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+.fa-mobile-alt {
+    margin: 50px 0 30px 0;
+    font-size: 50px;
+}
+
+.services-content__subtitle {
+    margin: 0 0 25px 0;
+}
+
+.services-content__desc {
+    margin: 0 50px;
+}
+
+.services-content__btn {
+    min-width: 0px;
+    margin: 40px 0 50px 0;
+    padding: 15px 20px;
+    font-family: 'OpenSans-SemiBold';
+    color: #212121;
+    border-color: #212121;
+}
+
+/* ----- services styles ----- */
