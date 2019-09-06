@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    text-align: center;
     font-family: 'OpenSans';
     font-size: 15px;
 }
@@ -58,3 +59,53 @@ a {
 }
 
 /* ----- header styles ----- */
+
+
+/* ----- title styles ----- */
+
+.title-section {
+    background-color: #000000;
+    background-image: url('/img/title-section-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.title-content {
+    padding: 180px 0 70px 0;
+}
+
+.title-content__title {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 60px;
+}
+
+.title-content__slogan {
+    margin: 25px 0 100px 0;
+    font-size: 22px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 10px;
+    padding: 15px 0;
+    min-width: 220px;
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.fa-angle-down {
+    margin-top: 100px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* ----- title styles ----- */
