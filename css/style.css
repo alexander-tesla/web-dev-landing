@@ -2,6 +2,10 @@
 
 /* ----- tag selectors ----- */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -167,7 +171,7 @@ a {
 
 .title-section {
     background-color: #000000;
-    background-image: url('/img/title-section-bg.png');
+    background-image: url('img/title-section-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
@@ -956,7 +960,7 @@ a {
 
 .contacts {
     background-color: #212121;
-    background-image: url('/img/contacts-bg.png');
+    background-image: url('img/contacts-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
